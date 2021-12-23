@@ -34,12 +34,14 @@ If you have multiple versions of python installed in your system, use **pip3** i
 
 ## Example
 
-```cli
+### Running from local installation
 
     $ llvd --help
     $ llvd -c "course-slug" -r 720
 
-```
+### Running from docker container
+
+    $ docker run ghcr.io/andrew-su/llvd -c "course-slug" -r 720
 
 ## Windows Users
 
