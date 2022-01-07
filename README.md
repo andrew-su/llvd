@@ -41,7 +41,7 @@ If you have multiple versions of python installed in your system, use **pip3** i
 
 ### Running from docker container
 
-    $ docker run ghcr.io/andrew-su/llvd -c "course-slug" -r 720
+    $ docker run ghcr.io/andrew-su/llvd:master -c "course-slug" -r 720
 
 ## Windows Users
 
